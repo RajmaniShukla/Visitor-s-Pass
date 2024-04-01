@@ -1,0 +1,104 @@
+/* stylesheet */
+
+/* CSS for index.php */
+#con{
+	border:5px dotted black;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	padding:5%;
+	height:75%;
+	width:80%;
+}
+ul{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.nav{
+	text-decoration:none;
+	font-size:20px;
+	float:left;
+	margin: 1px 80px;
+}
+#pass_tb{
+	border:3px solid green;
+	border-radius:10px;
+	padding:1%;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	width:80%;
+	height:100;
+}
+
+#tb_hd{
+	font-size:20px;
+	font-family:Calisto MT;
+}
+
+input[type=text]{
+	width:50%;
+	font-size:20px;
+	border:none;
+	outline:none;
+	border-bottom:2px solid blue;
+	background:rgba(blue,.2);
+	border-radius:.2em .2em 0 0;
+	padding: .4em;
+	color:blue;
+}
+input[type=submit]{
+	font-size:20px;
+	border:2px solid blue;
+	background:hsl(0 0 0 / 0);
+	padding:8px 12px;
+	border-radius:15px;
+	transition:1s;
+	&:hover , &:focus, &:active{
+		background:blue;
+		color:#fff;
+	}
+}
+
+/* CSS for Pass.php */
+
+#master{
+	text-align:center;
+}
+
+.pass_con{
+	height:auto;
+	width:auto;
+	padding:0.1%;
+}
+
+.tb_hd{
+	text-align:center;
+	font-size:12px;
+	
+}
+
+
+#pass_pt{
+	border:3px dotted green;
+	height:auto;
+	width:95%;
+	margin-left:auto;
+	margin-right:auto;
+	border-collapse:collapse;
+	font-size:12px;
+}
+
+#pass_pt td{
+	border:1px solid black;
+	padding:0.2%;
+}
+
+#user_pic{
+	height:140px;
+	width:120px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
