@@ -1,0 +1,23 @@
+# Uploaded images
+img/uploads/
+uploads/
+
+# Configuration (if externalized)
+config.php
+db_config.php
+
+# Logs
+*.log
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp
+*.tmp
